@@ -1,8 +1,39 @@
 p{
-    text-align: justify;
+   text-align: justify;
     text-indent: 2.5%;
 }
 img{
     margin: auto;
     display: block;
+border-radius: 10px;
+border-style: solid;
+border-color: rgb(211, 14, 14);
+margin-bottom: 30PX;
+margin-top: 30PX;
 }
+ericanas{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.loja:hover{
+    animation-name: imagem;
+    animation-duration: 1s;}
+    
+    @keyframes imagem {
+        0% {
+            transform: scale(0.5);
+        }
+    
+        100% {
+            transform: scale(1);
+        }
+    }
+.Historia{
+display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(218, 39, 39);
+  }
